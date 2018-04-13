@@ -95,27 +95,33 @@
   (foldl (lambda (n a) (+ a (expt d n))) 1 (build-list (- r 1) add1)))
 
 (define (plot-mean data delta rounds pic)
-  (define reward (* 3 (compound delta rounds)))
-  (define punishment (* 1 (compound delta rounds)))
-  (define reward-line
-    (function (lambda (x) reward) #:color "blue"))
-  (define punishment-line
-    (function (lambda (x) punishment) #:color "red"))
-  (plot (list reward-line punishment-line
+  (define h (* 8 (compound delta rounds)))
+  (define m (* 5 (compound delta rounds)))
+  (define l (* 2 (compound delta rounds)))
+  (define h-line
+    (function (lambda (x) h) #:color "red"))
+  (define m-line
+    (function (lambda (x) m) #:color "green"))
+  (define l-line
+    (function (lambda (x) l) #:color "blue"))
+  (plot (list h-line m-line l-line
               (population-mean->lines data))
-        #:y-min 0 #:y-max (+ 5 reward) #:width 1200 #:height 800
+        #:y-min 0 #:y-max (+ 5 h) #:width 1200 #:height 800
         #:out-file pic))
 
 (define (plot-mean-p data delta rounds)
-  (define reward (* 3 (compound delta rounds)))
-  (define punishment (* 1 (compound delta rounds)))
-  (define reward-line
-    (function (lambda (x) reward) #:color "blue"))
-  (define punishment-line
-    (function (lambda (x) punishment) #:color "red"))
-  (plot (list reward-line punishment-line
+  (define h (* 8 (compound delta rounds)))
+  (define m (* 5 (compound delta rounds)))
+  (define l (* 2 (compound delta rounds)))
+  (define h-line
+    (function (lambda (x) h) #:color "red"))
+  (define m-line
+    (function (lambda (x) m) #:color "green"))
+  (define l-line
+    (function (lambda (x) l) #:color "blue"))
+  (plot (list h-line m-line l-line
               (population-mean->lines data))
-        #:y-min 0 #:y-max (+ 5 reward) #:width 1200 #:height 800))
+        #:y-min 0 #:y-max (+ 5 h) #:width 1200 #:height 800))
 
 ;; SCAN
 (define (scan population)
@@ -126,8 +132,16 @@
    (hash)
    p))
 
+(define (scan-f population)
+  (define p (vector->list population))
+  (foldl
+   (lambda (au h)
+     (hash-update h (flatten-automaton au) add1 0))
+   (hash)
+   p))
+
 (define (sort-population p)
- (sort (hash->list (scan (vector-map reset p)))
+ (sort (hash->list (scan-f (vector-map reset p)))
        > #:key cdr))
 
 ;; MUTATE
@@ -140,14 +154,14 @@
 ;; MAIN
 (define (evolve population cycles speed mutation rounds delta mean-file rank-file p-file sim-id)
   (cond
-    [(zero? cycles) (out-population sim-id (scan population) p-file)]
+    [(zero? cycles) (out-population sim-id (scan-f population) p-file)]
     [else
      (and (zero? (modulo cycles 100)) (print (number->string cycles)))
      (define p2 (match-population population rounds delta))
      (define pp (population-payoffs p2))
      (define p3 (regenerate p2 speed))
      (define p4 (vector-map reset p3))
-     (and (zero? (modulo cycles 100)) (out-rank cycles (scan p4) rank-file))
+     (and (zero? (modulo cycles 100)) (out-rank cycles (scan-f p4) rank-file))
      (mutate-population p4 mutation)
      (out-data mean-file (list (list (average pp))))
      (evolve p4 (- cycles 1)

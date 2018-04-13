@@ -57,7 +57,17 @@
                       (list (action 0 0) (action 0 1) (action 1 0))
                       (list (action 0 0) (action 0 1) (action 1 0))
                       (list (action 0 0) (action 0 1) (action 1 0)))))
-                     
+;; flatten
+(define (flatten-automaton auto)
+  (match-define (automaton pay init plan) auto)
+  (define (flatten-action act)
+    (match-define (action l m) act)
+    (list l m))
+  (define (flatten-contingency cont)
+    (map flatten-action cont))
+  (define (flatten-plan p)
+    (map flatten-contingency p))
+  (flatten (list 0 (flatten-action init) (flatten-plan plan))))
 ;; helper of round-auto and to aid making automaton
 (define (round-action-scheme act)
   (match-define (action l m) act)

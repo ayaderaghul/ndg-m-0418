@@ -9,10 +9,10 @@
 (define SIM-ID 1)
 
 (define N 100)
-(define CYCLES 80000)
+(define CYCLES 10000)
 (define SPEED 10)
 (define ROUNDS 500)
-(define DELTA .5)
+(define DELTA .99)
 (define MUTATION 1)
 
 ;; POPULATION
@@ -150,7 +150,7 @@
      (and (zero? (modulo cycles 100)) (out-rank cycles (scan p4) rank-file))
      (mutate-population p4 mutation)
      (out-data mean-file (list (list (average pp))))
-     (evolve (vector-map round-auto p4) (- cycles 1)
+     (evolve p4 (- cycles 1)
              speed mutation rounds delta mean-file rank-file p-file sim-id)]))
 
 (define (evolve-p population cycles speed mutation rounds delta)
@@ -165,7 +165,7 @@
      (mutate-population p3 mutation)    
 ;;     (out-data mean-file (list (list (average pp))))
      (cons (average pp)
-           (evolve-p (vector-map round-auto (vector-map reset p3)) (- cycles 1)
+           (evolve-p (vector-map reset p3) (- cycles 1)
                    speed mutation rounds delta))]))
 
 (define (gen-name name id)

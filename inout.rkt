@@ -29,13 +29,13 @@
   (define end  (get-position (number->string x2) raw))
   (drop (take raw end) (add1 start)))
 
-(define (resurrect automata)
+(define (resurrect-a automata)
   (for/list ([i (in-list automata)])
     (define a (string-split i ")"))
     (match-define (list b1 b2) (map string-split a))
-    (define c (drop b1 1))
+    (define c (rest b1))
     (define d (map string->number c))
-    (apply automaton d)))
+    (resurrect d)))
 
 (define (resurrect-ethnic string)
   (define a (string-split string ")"))
@@ -44,7 +44,7 @@
   (define c2 (drop b2 1))
   (define d1 (map string->number c1))
   (define this-many (string->number (first c2)))
-  (build-vector this-many (lambda (_) (apply automaton d1))))
+  (build-vector this-many (lambda (_) (resurrect d1))))
 
 (define (resurrect-p data)
   (define a (drop (flatten data) 1))

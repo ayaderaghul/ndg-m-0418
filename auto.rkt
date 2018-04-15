@@ -8,7 +8,7 @@
 
 ;; round to 2 decimal numbers
 (define (round2 n)
-  (/ (round (* n 100)) 100))
+  (/ (round (* n 10)) 10))
 
 ;; accommodate the flaw in floating numbers
 (define (random-decimal prob)
@@ -57,7 +57,39 @@
                       (list (action 0 0) (action 0 1) (action 1 0))
                       (list (action 0 0) (action 0 1) (action 1 0))
                       (list (action 0 0) (action 0 1) (action 1 0)))))
-                     
+;; flatten
+(define (flatten-automaton auto)
+  (match-define (automaton pay init plan) auto)
+  (define (flatten-action act)
+    (match-define (action l m) act)
+    (list l m))
+  (define (flatten-contingency cont)
+    (map flatten-action cont))
+  (define (flatten-plan p)
+    (map flatten-contingency p))
+  (flatten (list 0 (flatten-action init) (flatten-plan plan))))
+;; resurrect
+
+(define (decompose a-list n)
+  (define l (length a-list))
+  (define this-many (/ l n))
+  (for/list ([i (in-range this-many)])
+    (take (drop a-list (* i n)) n)))
+
+(define (resurrect a-list) ;; without payoff
+  (define (resurrect-a a)
+    (apply action a))
+  (define pairs
+    (decompose a-list 2))
+  (define actions
+    (map resurrect-a pairs))
+  (define init
+    (first actions))
+  (define plan
+    (decompose (rest actions) 3))
+  (automaton 0 init plan))
+  
+
 ;; helper of round-auto and to aid making automaton
 (define (round-action-scheme act)
   (match-define (action l m) act)

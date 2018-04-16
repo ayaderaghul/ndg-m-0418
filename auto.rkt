@@ -144,7 +144,7 @@
   (define (whats-next? action1 action2)
     (cons
      (what-next? action1 action2 plan1)
-     (what-next? action1 action2 plan2)))
+     (what-next? action2 action1 plan2)))
   (define-values (next1 next2 p1 p2 results)
     (for/fold (
                [current1 init1]
@@ -173,7 +173,7 @@
   (define (whats-next? action1 action2)
     (cons
      (what-next? action1 action2 plan1)
-     (what-next? action1 action2 plan2)))
+     (what-next? action2 action1 plan2)))
   (define-values (next1 next2 p1 p2 results)
     (for/fold (
                [current1 init1]
@@ -203,7 +203,7 @@
   (define (whats-next? action1 action2)
     (cons
      (what-next? action1 action2 plan1)
-     (what-next? action1 action2 plan2)))
+     (what-next? action2 action1 plan2)))
   (define-values (next1 next2 p1 p2 results)
     (for/fold (
                [current1 init1]
@@ -260,3 +260,17 @@
    [(<= r 6) (automaton pay initial (list l- (mutate-c (- r 4) m-) h-))]
    [(<= r 9) (automaton pay initial (list l- m- (mutate-c (- r 7) h-)))]))
 
+;; kit
+(define (match-classics au)
+  (define-values (a1 a2) (interact au au 500 .99))
+  (define itself
+    (/ (+ (automaton-payoff a1) (automaton-payoff a2)) 2))
+  (define (return-payoff au2)
+    (define-values (a1 a2) (interact au au2 500 .99))
+    (automaton-payoff a1))
+  (define whigh (return-payoff H))
+  (define wmedium (return-payoff M))
+  (define wlow (return-payoff L))
+  (define waccom (return-payoff A))
+  (list itself wlow wmedium whigh waccom)) 
+ 

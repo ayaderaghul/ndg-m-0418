@@ -1,16 +1,16 @@
 #lang racket
 (require "auto.rkt" "inout.rkt")
-(require plot racket/hash)
-(plot-new-window? #t)
+(require racket/hash)
+
 
 (provide (all-defined-out))
 
 ;; CONFIGURATION
-(define SIM-ID 3)
+(define SIM-ID 4)
 
 (define N 100)
-(define CYCLES 100000)
-(define SPEED 15)
+(define CYCLES 70000)
+(define SPEED 10)
 (define ROUNDS 500)
 (define DELTA .99)
 (define MUTATION 2)
@@ -82,46 +82,6 @@
 
 (define (average lst)
   (exact->inexact (/ (sum lst) (length lst))))
-
-;; PLOT
-(define (population-mean->lines data)
-  (define coors
-    (for/list ([d (in-list data)]
-               [n (in-naturals)])
-      (list n d)))
-  (lines coors))
-
-(define (compound d r)
-  (foldl (lambda (n a) (+ a (expt d n))) 1 (build-list (- r 1) add1)))
-
-(define (plot-mean data delta rounds pic tit)
-  (define h (* 8 (compound delta rounds)))
-  (define m (* 5 (compound delta rounds)))
-  (define l (* 2 (compound delta rounds)))
-  (define h-line
-    (function (lambda (x) h) #:color "red"))
-  (define m-line
-    (function (lambda (x) m) #:color "green"))
-  (define l-line
-    (function (lambda (x) l) #:color "blue"))
-  (plot (list h-line m-line l-line
-              (population-mean->lines data))
-        #:y-min 0 #:y-max (+ 5 h) #:width 1200 #:height 800
-        #:out-file pic #:title tit))
-
-(define (plot-mean-p data delta rounds)
-  (define h (* 8 (compound delta rounds)))
-  (define m (* 5 (compound delta rounds)))
-  (define l (* 2 (compound delta rounds)))
-  (define h-line
-    (function (lambda (x) h) #:color "red"))
-  (define m-line
-    (function (lambda (x) m) #:color "green"))
-  (define l-line
-    (function (lambda (x) l) #:color "blue"))
-  (plot (list h-line m-line l-line
-              (population-mean->lines data))
-        #:y-min 0 #:y-max (+ 5 h) #:width 1200 #:height 800))
 
 ;; SCAN
 (define (scan population)

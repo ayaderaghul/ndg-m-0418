@@ -68,6 +68,7 @@
   (define (flatten-plan p)
     (map flatten-contingency p))
   (flatten (list 0 (flatten-action init) (flatten-plan plan))))
+
 ;; resurrect
 
 (define (decompose a-list n)

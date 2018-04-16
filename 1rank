@@ -1792,6 +1792,7 @@
 ((0 0.8 0.2 0.3 0.4 0.7 0.1 0.7 0.0 0.4 0.4 0.0 0.0 0.2 0.1 0.1 0.5 0.3 0.0 0.2 0.4) . 99)
 ((0 0.8 0.2 0.3 0.4 0.7 0.1 0.7 0.0 0.4 0.5 0.0 0.0 0.2 0.1 0.1 0.5 0.3 0.0 0.2 0.4) . 1)
 10000
+<<<<<<< HEAD
 ((0 0.8 0.2 0.3 0.4 0.7 0.1 0.7 0.0 0.4 0.4 0.0 0.0 0.2 0.1 0.1 0.5 0.3 0.0 0.2 0.4) . 98)
 ((0 0.8 0.2 0.3 0.4 0.7 0.1 0.7 0.0 0.4 0.4 0.0 0.0 0.2 0.1 0.3 0.5 0.3 0.0 0.2 0.4) . 1)
 ((0 0.8 0.2 0.3 0.4 0.7 0.1 0.7 0.0 0.4 0.4 0.0 0.0 0.2 0.1 0.1 0.5 0.3 0.6 0.2 0.4) . 1)
@@ -2068,3 +2069,295 @@
 100
 ((0 0.8 0.2 0.3 0.4 0.7 0.1 0.7 0.0 0.4 0.4 0.0 0.0 0.2 0.1 0.1 0.5 0.3 0.0 0.2 0.4) . 99)
 ((0 0.8 0.2 0.3 0.1 0.7 0.1 0.7 0.0 0.4 0.4 0.0 0.0 0.2 0.1 0.1 0.5 0.3 0.0 0.2 0.4) . 1)
+=======
+(#(struct:automaton 0 #(struct:action 0.36 0.57) ((#(struct:action 0.84 0.14) #(struct:action 0.43 0.22) #(struct:action 0.43 0.02)) (#(struct:action 0.29 0.54) #(struct:action 0.84 0.1) #(struct:action 0.93 0.04)) (#(struct:action 0.82 0.13) #(struct:action 0.4 0.55) #(struct:action 0.32 0.54)))) . 3)
+(#(struct:automaton 0 #(struct:action 0.75 0.16) ((#(struct:action 0.95 0.01) #(struct:action 0.1 0.47) #(struct:action 0.21 0.01)) (#(struct:action 0.58 0.15) #(struct:action 0.9 0.03) #(struct:action 0.13 0.8)) (#(struct:action 0.23 0.65) #(struct:action 0.81 0.09) #(struct:action 0.01 0.29)))) . 2)
+(#(struct:automaton 0 #(struct:action 0.9 0.07) ((#(struct:action 0.03 0.45) #(struct:action 0.16 0.43) #(struct:action 0.15 0.29)) (#(struct:action 0.42 0.31) #(struct:action 0.48 0.12) #(struct:action 0.68 0.16)) (#(struct:action 0.06 0.88) #(struct:action 0.35 0.48) #(struct:action 0.6 0.14)))) . 2)
+(#(struct:automaton 0 #(struct:action 0.84 0.04) ((#(struct:action 0.88 0.08) #(struct:action 0.7 0.13) #(struct:action 0.3 0.28)) (#(struct:action 0.63 0.32) #(struct:action 0.9 0.09) #(struct:action 0.7 0.27)) (#(struct:action 0.41 0.4) #(struct:action 0.36 0.32) #(struct:action 0.08 0.3)))) . 2)
+(#(struct:automaton 0 #(struct:action 0.45 0.07) ((#(struct:action 0.48 0.16) #(struct:action 0.7 0.15) #(struct:action 0.63 0.27)) (#(struct:action 0.63 0.24) #(struct:action 0.28 0.25) #(struct:action 0.08 0.72)) (#(struct:action 0.03 0.82) #(struct:action 0.95 0.0) #(struct:action 0.25 0.43)))) . 2)
+(#(struct:automaton 0 #(struct:action 0.59 0.38) ((#(struct:action 0.19 0.33) #(struct:action 0.97 0.02) #(struct:action 0.5 0.47)) (#(struct:action 0.45 0.21) #(struct:action 0.4 0.59) #(struct:action 0.44 0.4)) (#(struct:action 0.95 0.0) #(struct:action 0.39 0.41) #(struct:action 0.07 0.13)))) . 2)
+(#(struct:automaton 0 #(struct:action 0.38 0.06) ((#(struct:action 0.69 0.11) #(struct:action 0.75 0.2) #(struct:action 0.4 0.2)) (#(struct:action 0.17 0.38) #(struct:action 0.07 0.83) #(struct:action 0.56 0.21)) (#(struct:action 0.05 0.51) #(struct:action 0.45 0.2) #(struct:action 0.89 0.06)))) . 2)
+(#(struct:automaton 0 #(struct:action 0.67 0.2) ((#(struct:action 0.41 0.22) #(struct:action 0.83 0.12) #(struct:action 0.28 0.13)) (#(struct:action 0.48 0.33) #(struct:action 0.48 0.48) #(struct:action 0.06 0.1)) (#(struct:action 0.96 0.01) #(struct:action 0.8 0.03) #(struct:action 0.67 0.29)))) . 2)
+(#(struct:automaton 0 #(struct:action 0.34 0.37) ((#(struct:action 0.28 0.01) #(struct:action 0.28 0.03) #(struct:action 0.68 0.17)) (#(struct:action 0.98 0.0) #(struct:action 0.09 0.86) #(struct:action 0.43 0.42)) (#(struct:action 0.78 0.03) #(struct:action 0.18 0.06) #(struct:action 0.48 0.16)))) . 1)
+(#(struct:automaton 0 #(struct:action 0.47 0.46) ((#(struct:action 0.39 0.53) #(struct:action 0.65 0.12) #(struct:action 0.37 0.45)) (#(struct:action 0.49 0.12) #(struct:action 0.82 0.07) #(struct:action 0.78 0.06)) (#(struct:action 0.94 0.01) #(struct:action 0.77 0.08) #(struct:action 0.08 0.14)))) . 1)
+(#(struct:automaton 0 #(struct:action 0.96 0.02) ((#(struct:action 0.08 0.3) #(struct:action 0.82 0.01) #(struct:action 0.84 0.15)) (#(struct:action 0.36 0.04) #(struct:action 0.61 0.26) #(struct:action 0.74 0.18)) (#(struct:action 0.92 0.01) #(struct:action 0.41 0.3) #(struct:action 0.51 0.14)))) . 1)
+(#(struct:automaton 0 #(struct:action 0.99 0.0) ((#(struct:action 0.94 0.04) #(struct:action 0.56 0.25) #(struct:action 0.95 0.02)) (#(struct:action 0.4 0.28) #(struct:action 0.01 0.43) #(struct:action 0.12 0.35)) (#(struct:action 0.38 0.49) #(struct:action 0.98 0.0) #(struct:action 0.46 0.35)))) . 1)
+(#(struct:automaton 0 #(struct:action 0.3 0.33) ((#(struct:action 0.53 0.06) #(struct:action 0.94 0.02) #(struct:action 0.95 0.02)) (#(struct:action 0.15 0.17) #(struct:action 0.39 0.22) #(struct:action 0.62 0.16)) (#(struct:action 0.87 0.06) #(struct:action 1.0 0) #(struct:action 0.02 0.11)))) . 1)
+(#(struct:automaton 0 #(struct:action 0.5 0.3) ((#(struct:action 0.27 0.14) #(struct:action 0.73 0.24) #(struct:action 0.88 0.03)) (#(struct:action 0.57 0.01) #(struct:action 0.34 0.48) #(struct:action 0.85 0.04)) (#(struct:action 0.99 0.0) #(struct:action 0.33 0.54) #(struct:action 0.11 0.43)))) . 1)
+(#(struct:automaton 0 #(struct:action 0.61 0.12) ((#(struct:action 0.76 0.19) #(struct:action 0.02 0.12) #(struct:action 0.96 0.0)) (#(struct:action 0.5 0.04) #(struct:action 0.8 0.08) #(struct:action 0.22 0.6)) (#(struct:action 0.91 0.06) #(struct:action 0.91 0.01) #(struct:action 0.89 0.05)))) . 1)
+(#(struct:automaton 0 #(struct:action 0.51 0.17) ((#(struct:action 0.85 0.05) #(struct:action 0.0 0.93) #(struct:action 0.69 0.29)) (#(struct:action 0.93 0.03) #(struct:action 0.03 0.07) #(struct:action 0.31 0.44)) (#(struct:action 0.65 0.11) #(struct:action 0.41 0.3) #(struct:action 0.84 0.03)))) . 1)
+(#(struct:automaton 0 #(struct:action 0.47 0.44) ((#(struct:action 0.01 0.49) #(struct:action 0.21 0.33) #(struct:action 0.32 0.19)) (#(struct:action 0.48 0.3) #(struct:action 0.0 0.02) #(struct:action 0.07 0.32)) (#(struct:action 0.7 0.1) #(struct:action 0.76 0.15) #(struct:action 0.87 0.0)))) . 1)
+(#(struct:automaton 0 #(struct:action 0.34 0.5) ((#(struct:action 0.76 0.04) #(struct:action 0.55 0.24) #(struct:action 0.18 0.4)) (#(struct:action 0.78 0.18) #(struct:action 0.35 0.58) #(struct:action 0.4 0.5)) (#(struct:action 0.54 0.43) #(struct:action 0.36 0.35) #(struct:action 0.62 0.22)))) . 1)
+(#(struct:automaton 0 #(struct:action 0.69 0.04) ((#(struct:action 0.9 0.01) #(struct:action 0.94 0.02) #(struct:action 0.89 0.06)) (#(struct:action 0.25 0.12) #(struct:action 0.13 0.23) #(struct:action 0.21 0.26)) (#(struct:action 0.89 0.01) #(struct:action 0.95 0.02) #(struct:action 0.48 0.25)))) . 1)
+(#(struct:automaton 0 #(struct:action 0.11 0.61) ((#(struct:action 0.37 0.43) #(struct:action 0.07 0.86) #(struct:action 0.28 0.64)) (#(struct:action 0.48 0.09) #(struct:action 0.8 0.09) #(struct:action 0.97 0.02)) (#(struct:action 0.33 0.41) #(struct:action 0.98 0.0) #(struct:action 0.85 0.08)))) . 1)
+9900
+(#(struct:automaton 0 #(struct:action 0.13 0.61) ((#(struct:action 0.25 0.49) #(struct:action 0.17 0.73) #(struct:action 0.11 0.37)) (#(struct:action 0.12 0.61) #(struct:action 0.42 0.15) #(struct:action 0.49 0.24)) (#(struct:action 0.81 0.01) #(struct:action 0.96 0.03) #(struct:action 0.69 0.17)))) . 26)
+(#(struct:automaton 0 #(struct:action 0.12 0.5) ((#(struct:action 0.03 0.23) #(struct:action 0.47 0.5) #(struct:action 0.81 0.17)) (#(struct:action 0.07 0.03) #(struct:action 0.79 0.11) #(struct:action 0.99 0.0)) (#(struct:action 0.27 0.24) #(struct:action 0.42 0.27) #(struct:action 0.48 0.27)))) . 20)
+(#(struct:automaton 0 #(struct:action 0.3 0.31) ((#(struct:action 0.97 0.02) #(struct:action 0.74 0.15) #(struct:action 0.47 0.1)) (#(struct:action 0.74 0.08) #(struct:action 0.94 0.02) #(struct:action 0.19 0.31)) (#(struct:action 0.4 0.43) #(struct:action 0.71 0.05) #(struct:action 0.07 0.19)))) . 18)
+(#(struct:automaton 0 #(struct:action 0.39 0.15) ((#(struct:action 0.84 0.05) #(struct:action 0.43 0.02) #(struct:action 0.06 0.03)) (#(struct:action 0.63 0.3) #(struct:action 0.97 0.02) #(struct:action 0.9 0.07)) (#(struct:action 0.27 0.12) #(struct:action 0.38 0.17) #(struct:action 0.75 0.01)))) . 10)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 7)
+(#(struct:automaton 0 #(struct:action 0.75 0.16) ((#(struct:action 0.95 0.01) #(struct:action 0.1 0.47) #(struct:action 0.21 0.01)) (#(struct:action 0.58 0.15) #(struct:action 0.9 0.03) #(struct:action 0.13 0.8)) (#(struct:action 0.23 0.65) #(struct:action 0.81 0.09) #(struct:action 0.01 0.29)))) . 6)
+(#(struct:automaton 0 #(struct:action 0.59 0.38) ((#(struct:action 0.19 0.33) #(struct:action 0.97 0.02) #(struct:action 0.5 0.47)) (#(struct:action 0.45 0.21) #(struct:action 0.4 0.59) #(struct:action 0.44 0.4)) (#(struct:action 0.95 0.0) #(struct:action 0.39 0.41) #(struct:action 0.07 0.13)))) . 6)
+(#(struct:automaton 0 #(struct:action 0.54 0.3) ((#(struct:action 0.44 0.2) #(struct:action 0.45 0.5) #(struct:action 0.72 0.22)) (#(struct:action 0.81 0.02) #(struct:action 0.35 0.55) #(struct:action 0.06 0.92)) (#(struct:action 0.12 0.32) #(struct:action 0.68 0.08) #(struct:action 0.83 0.11)))) . 5)
+(#(struct:automaton 0 #(struct:action 0.24 0.35) ((#(struct:action 0.49 0.46) #(struct:action 0.97 0.0) #(struct:action 0.81 0.06)) (#(struct:action 0.41 0.26) #(struct:action 0.75 0.05) #(struct:action 0.3 0.5)) (#(struct:action 0.91 0.04) #(struct:action 0.32 0.19) #(struct:action 0.86 0.04)))) . 2)
+9800
+(#(struct:automaton 0 #(struct:action 0.39 0.15) ((#(struct:action 0.84 0.05) #(struct:action 0.43 0.02) #(struct:action 0.06 0.03)) (#(struct:action 0.63 0.3) #(struct:action 0.97 0.02) #(struct:action 0.9 0.07)) (#(struct:action 0.27 0.12) #(struct:action 0.38 0.17) #(struct:action 0.75 0.01)))) . 38)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 34)
+(#(struct:automaton 0 #(struct:action 0.12 0.5) ((#(struct:action 0.03 0.23) #(struct:action 0.47 0.5) #(struct:action 0.81 0.17)) (#(struct:action 0.07 0.03) #(struct:action 0.79 0.11) #(struct:action 0.99 0.0)) (#(struct:action 0.27 0.24) #(struct:action 0.42 0.27) #(struct:action 0.48 0.27)))) . 15)
+(#(struct:automaton 0 #(struct:action 0.3 0.31) ((#(struct:action 0.97 0.02) #(struct:action 0.74 0.15) #(struct:action 0.47 0.1)) (#(struct:action 0.74 0.08) #(struct:action 0.94 0.02) #(struct:action 0.19 0.31)) (#(struct:action 0.4 0.43) #(struct:action 0.71 0.05) #(struct:action 0.07 0.19)))) . 13)
+9700
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 40)
+(#(struct:automaton 0 #(struct:action 0.3 0.31) ((#(struct:action 0.97 0.02) #(struct:action 0.74 0.15) #(struct:action 0.47 0.1)) (#(struct:action 0.74 0.08) #(struct:action 0.94 0.02) #(struct:action 0.19 0.31)) (#(struct:action 0.4 0.43) #(struct:action 0.71 0.05) #(struct:action 0.07 0.19)))) . 34)
+(#(struct:automaton 0 #(struct:action 0.39 0.15) ((#(struct:action 0.84 0.05) #(struct:action 0.43 0.02) #(struct:action 0.06 0.03)) (#(struct:action 0.63 0.3) #(struct:action 0.97 0.02) #(struct:action 0.9 0.07)) (#(struct:action 0.27 0.12) #(struct:action 0.38 0.17) #(struct:action 0.75 0.01)))) . 26)
+9600
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 88)
+(#(struct:automaton 0 #(struct:action 0.3 0.31) ((#(struct:action 0.97 0.02) #(struct:action 0.74 0.15) #(struct:action 0.47 0.1)) (#(struct:action 0.74 0.08) #(struct:action 0.94 0.02) #(struct:action 0.19 0.31)) (#(struct:action 0.4 0.43) #(struct:action 0.71 0.05) #(struct:action 0.07 0.19)))) . 11)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.15 0.77)))) . 1)
+9500
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 99)
+(#(struct:automaton 0 #(struct:action 0.3 0.31) ((#(struct:action 0.97 0.02) #(struct:action 0.74 0.15) #(struct:action 0.47 0.1)) (#(struct:action 0.74 0.08) #(struct:action 0.94 0.02) #(struct:action 0.19 0.31)) (#(struct:action 0.4 0.43) #(struct:action 0.71 0.05) #(struct:action 0.07 0.19)))) . 1)
+9400
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+9300
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+9200
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+9100
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+9000
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+8900
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+8800
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+8700
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+8600
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+8500
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+8400
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+8300
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 95)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.09)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 5)
+8200
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+8100
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+8000
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+7900
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+7800
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+7700
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+7600
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+7500
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+7400
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+7300
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+7200
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+7100
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+7000
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 99)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.18)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 1)
+6900
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 92)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.13) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 6)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.18)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 2)
+6800
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 93)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.13) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 7)
+6700
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 96)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.09) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 4)
+6600
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+6500
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+6400
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 98)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.11 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 2)
+6300
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 99)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.26) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 1)
+6200
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 99)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.16)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 1)
+6100
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+6000
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+5900
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+5800
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+5700
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+5600
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+5500
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+5400
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+5300
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+5200
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+5100
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+5000
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 94)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 6)
+4900
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 70)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 30)
+4800
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 59)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 41)
+4700
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 66)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 34)
+4600
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 87)
+(#(struct:automaton 0 #(struct:action 0.05 0.52) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 8)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.56)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 3)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 2)
+4500
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 86)
+(#(struct:automaton 0 #(struct:action 0.05 0.52) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 11)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.5)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 3)
+4400
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+4300
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+4200
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+4100
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+4000
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+3900
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+3800
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+3700
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 83)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.32 0.38) #(struct:action 0.11 0.77)))) . 17)
+3600
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 96)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.17)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 3)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.32 0.38) #(struct:action 0.11 0.77)))) . 1)
+3500
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 88)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.17)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 12)
+3400
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 93)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.17)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 7)
+3300
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 77)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.17)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 23)
+3200
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 78)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.17)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 22)
+3100
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 97)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.17)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 3)
+3000
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+2900
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+2800
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+2700
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+2600
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 97)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.13 0.38) #(struct:action 0.11 0.77)))) . 3)
+2500
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 79)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.13 0.38) #(struct:action 0.11 0.77)))) . 21)
+2400
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 96)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.13 0.38) #(struct:action 0.11 0.77)))) . 4)
+2300
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+2200
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+2100
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+2000
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 100)
+1900
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 91)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 9)
+1800
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 77)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 23)
+1700
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 60)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 40)
+1600
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 64)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 31)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.76) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 3)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.72) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 2)
+1500
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 34)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 29)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.72) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 28)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.02 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 9)
+1400
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 42)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 35)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.72) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 23)
+1300
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 48)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 39)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.72) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 13)
+1200
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 49)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 43)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.72) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 8)
+1100
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 66)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 34)
+1000
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 77)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 23)
+900
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 64)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 36)
+800
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 61)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 39)
+700
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 61)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 39)
+600
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 55)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 45)
+500
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 74)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 26)
+400
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 75)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 25)
+300
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 72)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 27)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.15 0.77)))) . 1)
+200
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 70)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 30)
+100
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 56)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 44)
+>>>>>>> 4fa30821467d715971f3aeb1dab7c8d7b037f3ac

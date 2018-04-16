@@ -1,0 +1,4 @@
+1
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.21 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 70)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.17 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 29)
+(#(struct:automaton 0 #(struct:action 0.05 0.67) ((#(struct:action 0.07 0.51) #(struct:action 0.2 0.08) #(struct:action 0.43 0.55)) (#(struct:action 0.93 0.06) #(struct:action 0.69 0.23) #(struct:action 0.57 0.11)) (#(struct:action 0.03 0.54) #(struct:action 0.14 0.38) #(struct:action 0.11 0.77)))) . 1)
